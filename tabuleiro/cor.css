@@ -1,0 +1,35 @@
+.tabuleiro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 1000px;
+    border: 1px solid black;
+}
+.tabuleiro div{
+    width: calc(100% / 8);
+    height: calc(100% / 8);
+    
+}
+
+.tabuleiro div:nth-child(16n + 1),
+.tabuleiro div:nth-child(16n + 3),
+.tabuleiro div:nth-child(16n + 5),
+.tabuleiro div:nth-child(16n + 7),
+.tabuleiro div:nth-child(16n + 10),
+.tabuleiro div:nth-child(16n + 12),
+.tabuleiro div:nth-child(16n + 14),
+.tabuleiro div:nth-child(16n + 16){
+    background: black;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 99vh;
+    background-color: brown;
+}
+
+
+
