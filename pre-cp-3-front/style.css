@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho{
+    background-color: black;
+    text-colo
+    text-align: center;
+}
+
+
+.conteiner{
+
+    text-align: center;
+}
